@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'vazir-regular';
+    src: url(font/Vazirmatn-Regular.woff2);
+}
+body{
+    direction: rtl;
+    font-family: 'vazir-regular';
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background-color: aquamarine;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+    gap: 0  15px;
+}
+.trend{
+    display: flex;
+    gap: 0 15px;
+    justify-content: center;
+    background-color: #279923;
+    padding: 10px;
+    height: 200px;
+    font-size: 10px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+.trend h1{
+    text-align: center;
+}
